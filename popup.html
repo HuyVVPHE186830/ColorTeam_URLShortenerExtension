@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script type="module" src="scripts/popup.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/popup.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+</head>
+<body>
+  <div class="form">
+    <div class="alert">
+      <i id="icon" class="fas fa-check-circle noti"></i>
+      <div id="message"></div>
+    </div>
+    <div class="title">URL CUSTOM EXTENSION</div>
+    <div class="subtitle1">Let's custom your current website's URL!</div>
+    <div class="input-container">
+      <input id="shorturl" class="input" type="text" placeholder="" />
+      <button id="copy" class="input-button btn btn1" title="Copy to Clipboard">
+        <i class="fa fa-copy"></i>
+      </button>
+      <div class="cut c2"></div>
+      <label for="shorturl" class="placeholder">Shortened URL</label>
+    </div>
+    <div class="input-container">
+      <input id="customurl" class="input" type="text" placeholder="" />
+      <button id="shorten" class="input-button btn btn1" title="Custom URL">
+        <i class="fas fa-angle-double-right" ></i>
+      </button>
+      <div class="cut c1"></div>
+      <label for="customurl" class="placeholder">Enter custom URL</label>
+    </div>
+    <div class="subtitle2">If you want to custom this URL, please enter here</div>
+    
+    <div class="list-container">
+      <button id="add" title="You can add the URL to a list to manage it easily">ADD URL TO LIST</button>
+      <button id="list" title="URL List">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div id="add-form" class="hidden">
+      <div class="input-container">
+        <input id="description" class="input" type="text" placeholder="" />
+        <button id="add-description" class="input-button btn" title="Add">
+          <i class="fa fa-plus"></i>
+        </button>
+        <div class="cut c3"></div>
+        <label for="shorturl" class="placeholder">Add description about URL</label>
+      </div>
+  </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "URL Shortener Extension",
+    "version": "1.0",
+    "description": "By HuyVo",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "clipboardWrite",
+        "storage",
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "images/logo (2).png"
+        }
+    },
+    "icons": {
+        "16": "images/logo (2).png",
+        "32": "images/logo (2).png",
+        "48": "images/logo (2).png"
+    },
+    "background": {
+        "scripts": [
+            "scripts/popup.js",
+            "scripts/list.js"
+        ]
+    }
+}
